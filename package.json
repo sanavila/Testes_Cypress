@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cypress": "cypress run --spec 'cypress/integration/**/*.*'"
+    },
   "dependencies": {
     "cypress": "3.6.0"
   }
